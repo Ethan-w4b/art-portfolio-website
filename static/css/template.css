@@ -1,0 +1,46 @@
+html {
+    background-color: white;
+}
+.standard-text{
+    color: black;
+    font-size: 17px;
+}
+
+.menu {
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightcyan;
+}
+
+.navi {
+    background-color: slategray;
+}
+.navi  span p {
+    margin: auto;
+    text-align: center;
+    width: 50px;
+    border: solid, 8px, slategray;
+    border-radius: 36px;
+    background-color: slategray;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    height: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: white;
+    background-color: #a4a4ee;
+}

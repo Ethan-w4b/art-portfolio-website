@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <title>HOME</title>
+    <link rel="stylesheet" href="/static/css/home.css">
+    <script src="/static/interaction/interactive.js"></script>
+    <head>
+        
+    </head>
+    <body>
+        {% extends "template.html" %}
+        {% block content %}
+
+        <div class="intro">
+            <h2 id="demo">My name is Kol</h2>
+            <button type="button" onclick="turn_blue()">click</button>
+            <p class="standard-text">and I've been an artist/graphic designer for XX years. I love to challenge myself with different mediums.</p>
+            <ul>
+                <li><img src="{{url_for('static', filename='/imgs/landman-rodi-avatar.jpg')}}" alt="4b-dev"></li>
+                <li><img src="{{url_for('static', filename='/imgs/joker-scream-avatar.jpg')}}" alt="gunz"></li>
+            </ul>
+        </div>
+        <form name="myform" action="/static/interaction/interactive.js" onsubmit="get_form()">
+            <input type="text" name="age"><p>Enter age</p><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        {% endblock %}
+    </body>
+</html>
