@@ -21,7 +21,7 @@ def gallery():
 
 # add the following pages: gallery, contact, news(?)
 
-def youloser()
+# test pull request commit
 
 
 if __name__ == '__main__':
