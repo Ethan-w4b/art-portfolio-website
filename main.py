@@ -22,5 +22,6 @@ def gallery():
 # add the following pages: gallery, contact, news(?)
 
 
+
 if __name__ == '__main__':
     app.run(debug=True)
