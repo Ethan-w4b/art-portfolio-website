@@ -19,7 +19,7 @@
                 <li><img src="{{url_for('static', filename='/imgs/joker-scream-avatar.jpg')}}" alt="gunz"></li>
             </ul>
         </div>
-        <form name="myform" action="/static/interaction/interactive.js" onsubmit="get_form()">
+        <form name="myform" action="/static/interaction/interactive.js" onsubmit="get_form();return false">
             <input type="text" name="age"><p>Enter age</p><br>
             <input type="submit" value="Submit">
         </form>
