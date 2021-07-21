@@ -2,3 +2,16 @@
     color: white;
     background-color: #a4a4ee;
 }
+#art-cat ul{
+    list-style: none;
+}
+#art-cat ul li {
+    float: left;
+}
+
+#art-cat ul li img{
+    margin-right: 50px;
+    height: 250px;
+    width: 270px;
+    border-bottom: grey solid 24px;
+}

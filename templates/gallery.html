@@ -9,6 +9,12 @@
         {% extends "template.html" %}
         {% block content %}
 
+        <div id="art-cat">
+            <ul>
+                <li id="2d"><img src="{{url_for('static', filename='/imgs/river.png')}}" alt="2d-art"></li>
+                <li id="3d"><img src="{{url_for('static', filename='/imgs/snow-trees.png')}}" alt="3d-art"></li>
+            </ul>
+        </div>
 
         {% endblock %}
 
