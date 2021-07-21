@@ -1,5 +1,5 @@
 html {
-    background-color: white;
+    background-color: #839abb;
 }
 .standard-text{
     color: black;
@@ -13,17 +13,11 @@ html {
     padding: 0;
     overflow: hidden;
     background-color: lightcyan;
+    border: solid 5px lightcyan;
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .navi {
-    background-color: slategray;
-}
-.navi  span p {
-    margin: auto;
-    text-align: center;
-    width: 50px;
-    border: solid, 8px, slategray;
-    border-radius: 36px;
     background-color: slategray;
 }
 
@@ -42,5 +36,5 @@ html {
 
 .menu li a:hover {
     color: white;
-    background-color: #a4a4ee;
+    background-color: #839abb;
 }

@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="/static/css/about.css">
+        <script src="static/interaction/interactive.js"></script>
         <title>About Us</title>
     </head>
     <body>
@@ -9,6 +10,10 @@
         {% block content %}
 
         <h1>About Us</h1>
+        <form name="myform" action="/static/interaction/interactive.js" onsubmit="get_form();return false">
+            <input type="text" name="age"><p>Enter age</p><br>
+            <input type="submit" value="Submit">
+        </form>
     
         {% endblock %}
     </body>
