@@ -4,10 +4,12 @@
     font-family: 'Times New Roman', Times, serif;
 }
 #kol{
+    color: lightcyan;
     text-align: center;
+    font-family: monospace;
 }
 
-.intro{
+.title-card{
     color: black;
     background-color: #839abb;
     padding-bottom: 300px;
@@ -32,24 +34,24 @@
 
 .flex-container li {
     background-color: lightcyan;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0, .25);
     height: 270px;
-    width: 289px;
+    width: 290px;
     margin-bottom: 175px;
 }
 
 .flex-container li img{
-    opacity: 0.1;
-    box-shadow: 10px 10px rgba(0,0,0, .25);
     height: 250px;
     width: 270px;
-}
-
-.flex-container li img:hover{
-    box-shadow: 20px 20px rgba(0,0,0, .15);
-    opacity: 1.0;
 }
 
 #p-home {
     color: white;
     background-color: #839abb;
+}
+#intro{
+    margin-top: 175px;
+    background-color: lightcyan;
+    padding: 25px;
 }

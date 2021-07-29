@@ -10,10 +10,10 @@
         {% extends "template.html" %}
         {% block content %}
 
-        <div class="intro">
-            <h2 id="kol">Kol Wilcox</h2
-            <p class="standard-text">and I've been an artist/graphic designer for XX years. I love to challenge myself with different mediums.</p>
+        <div class="title-card">
+            <h1 id="kol">Kol Wilcox</h1>
         </div>
+
         <div>
             <ul class="flex-container">
                 <li><img src="{{url_for('static', filename='/imgs/landman-rodi-avatar.jpg')}}" alt="4b-dev"></li>
@@ -21,6 +21,9 @@
             </ul>
         </div>
 
+        <div id="intro">
+            <p class="standard-text">I'm a graphic designer and artist of XX years Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, animi consequuntur assumenda delectus iure nihil. Optio quis, consequatur quo tenetur officia, culpa earum obcaecati illum eveniet saepe repellat corporis odit!</p>
+        </div>
         {% endblock %}
     </body>
 </html>

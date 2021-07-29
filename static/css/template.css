@@ -13,8 +13,10 @@ body{
 }
 
 .standard-text{
+    font-family: Otomanopee-One;
+    text-align: center;
     color: black;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .menu {
