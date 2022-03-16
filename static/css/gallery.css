@@ -1,6 +1,7 @@
 #p-gallery {
-    color: white;
-    background-color: #839abb;
+    color: black;
+    background-color: violet;
+    border-radius: 10px;
 }
 #art-cat ul{
     list-style: none;
@@ -9,9 +10,9 @@
     float: left;
 }
 
-#art-cat ul li img{
+.art-cat ul li img{
     margin-right: 50px;
     height: 250px;
     width: 270px;
-    border-bottom: grey solid 24px;
+    border-bottom: violet solid 24px;
 }

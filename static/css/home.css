@@ -11,7 +11,7 @@
 
 .title-card{
     color: black;
-    background-color: #839abb;
+    background-color: violet;
     padding-bottom: 300px;
     padding-top: 10px;
     font-family: monospace;
@@ -28,12 +28,12 @@
     justify-content: center;
     align-items: center;
     column-gap: 50px;
-    background-color: lightcyan;
+    background-color: black;
     width: 100%;
 }
 
 .flex-container li {
-    background-color: lightcyan;
+    background-color: violet;
     text-align: center;
     box-shadow: 2px 2px 2px 2px rgba(0,0,0, .25);
     height: 270px;
@@ -47,8 +47,9 @@
 }
 
 #p-home {
-    color: white;
-    background-color: #839abb;
+    color: black;
+    background-color: violet;
+    border-radius: 10px;
 }
 #intro{
     margin-top: 175px;

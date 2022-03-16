@@ -1,5 +1,5 @@
 html {
-    background-color: #839abb;
+    background-color:black;
 }
 
 body{
@@ -8,8 +8,8 @@ body{
 }
 
 .navi {
-    background-color: lightcyan;
-    width: 100%
+    background-color: black;
+    width: 100%;
 }
 
 .standard-text{
@@ -25,8 +25,9 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: lightcyan;
-    border: solid 5px lightcyan;
+    background-color: black;
+    border: solid 5px black;
+    border-radius: 10px;
     box-shadow: 1px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -36,7 +37,8 @@ body{
 
 .menu li a {
     display: block;
-    color: black;
+    color: white;
+    border-radius: 10px;
     padding: 14px 16px;
     height: 14px;
     text-align: center;
@@ -45,5 +47,6 @@ body{
 
 .menu li a:hover {
     color: white;
-    background-color: #839abb;
+    background-color: violet;
+    
 }
