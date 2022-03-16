@@ -13,9 +13,10 @@ body{
 }
 
 .standard-text{
-    font-family: Otomanopee-One;
+    font-family: PressStart2P-Regular;
+    src:url("/template-site/static/fonts/PressStart2P-Regular.ttf");
     text-align: center;
-    color: black;
+    color: white;
     font-size: 20px;
 }
 

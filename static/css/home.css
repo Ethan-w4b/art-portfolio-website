@@ -33,7 +33,7 @@
 }
 
 .flex-container li {
-    background-color: violet;
+    background-color: black;
     text-align: center;
     box-shadow: 2px 2px 2px 2px rgba(0,0,0, .25);
     height: 270px;
@@ -53,6 +53,6 @@
 }
 #intro{
     margin-top: 175px;
-    background-color: lightcyan;
+    background-color: black;
     padding: 25px;
 }
