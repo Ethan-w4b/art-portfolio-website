@@ -10,6 +10,8 @@ body{
 .navi {
     background-color: black;
     width: 100%;
+    padding: 4px 15px;
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .standard-text{
